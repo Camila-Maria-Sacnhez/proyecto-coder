@@ -388,6 +388,22 @@ footer{
     gap: 50px;
 }
 
+/*bootstrap*/
+
+
+.container-fluid{
+    background-color: ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #eee4e1;
+    text-decoration: none;
+}
+
+.item{
+    color:red;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
 
 
 /*
