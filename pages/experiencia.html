@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>experiencia</title>
+</head>
+
+<body>
+    <header class="navegador">
+        <h2 class="navegador__titulo">HOTEL YAYO</h2>
+        <nav class="navegador__barra">
+            <ul class="navegador__list">
+                <li class="navegador__item"><a href="..//index.html"> Inicio</a></li>
+                <li class="navegador__item"><a href="./reservas.html"> Reservas</a></li>
+                <li class="navegador__item"> <a href="./habitaciones.html">Habitaciones</a></li>
+                <li class="navegador__item"> <a href="../pages/gastronomia.html"> Gastronomia</a></li>
+
+                
+
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="rotuladores"> Experiencias</h2>
+            <article>
+                <h3 class="rotuladores__subtitulos">Queremos saber tu experiencia en Hotel Yayo</h3>
+                <form class="formulario">
+                    <div>
+                        <label  class="formulario__section"for="">Nombre y Apellido:</label>
+                        <input  class="formulario__input" type="text" name="nombre" required>
+                    </div>
+                    <div>
+                    <label  class="formulario__section"for=""> Email:</label>
+                    <input  class="formulario__input"  type="email" name="email" required>
+                    </div>
+
+                    <div>
+                        <label  class="formulario__section"for="">Asunto:</label>
+                        <select  class="formulario__input" name="asunto" id="">
+                            <option   value="Queja">Queja</option>
+                            <option  value="Sugerencias">sugerencias</option>
+                            <option  value="otro">Otro</option>
+                        </select>
+                    </div>
+                    <div>
+                        <h3 class="formulario__section">Como estuvo tu estadia?</h3>
+                        <label  class="formulario__personas"for="">Muy buena</label>
+                        <input type="radio" name="estadia" value="muy buena">
+
+
+                        <label  class="formulario__personas"for="">Buena</label>
+                        <input type="radio" name="estadia" value="buena">
+
+                        <label class="formulario__personas" for="">Regular</label>
+                        <input type="radio" name="estadia" value="regular">
+
+                        <label  class="formulario__personas"for="">Mala</label>
+                        <input type="radio" name="estadia" value="Mala">
+                    </div>
+                    <div>
+
+                        <label class="formulario__section" for="">Mensaje:</label>
+                        <textarea class="formulario__input"  name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <label class="formulario__terminos" for="">Acepto terminos y condiciones</label>
+                        <input type="checkbox" name="terminos" value="si-terminos">
+                    </div>
+                    <input class="reservar" type="submit" value="Enviar">
+
+
+
+                </form>
+            </article>
+        </section>
+
+        <footer class="pie">
+            <h4 class="pie__titulo">Redes Sociales</h4>
+            <ul>
+                <li class="pie__redes">Istagram</li>
+                <li class="pie__redes">Facebook</li>
+                <li class="pie__redes">Twitter</li>
+                <li class="pie__redes">TripAdvisor</li>
+            </ul>
+            <h4 class="pie__titulo">Contanto</h4>
+
+            <ul>
+                <li class="pie__redes"> + 54 261 4296320</li>
+                <li class="pie__redes"> reservas@hotelyayo.com</li>
+            </ul>
+
+            <div>
+                <h4 class="pie__titulo">Ubicacion</h4>
+
+                <iframe class="maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.48763909062!2d-68.8760287209301!3d-32.883333980142005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1664031946791!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </footer>
+    </main>
+
+</body>
+
+</html>

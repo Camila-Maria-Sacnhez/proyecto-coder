@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Rservas</title>
+</head>
+
+<body>
+    <header class="navegador">
+        <h2 class="navegador__titulo">HOTEL YAYO</h2>
+        <nav class="navegador__barra">
+            <ul class="navegador__list">
+                <li class="navegador__item"><a href="..//index.html"> Inicio</a></li>
+                <li class="navegador__item"> <a href="./habitaciones.html">Habitaciones</a></li>
+                <li class="navegador__item"> <a href="../pages/gastronomia.html"> Gastronomia</a></li>
+                <li class="navegador__item"><a href="./experiencia.html"> Experiencia</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <section>
+            <h2 class="rotuladores"> Reservas</h2>
+            <article>
+                <h3 class="rotuladores__subtitulos">Reserva ahora!</h3>
+                <form class="formulario">
+                    <div class="formulario__item">
+                        <label class="formulario__section" for="">Nombre</label>
+                        <input class="formulario__input" type="text" name="nombre" required>
+                    </div>
+                    <div lass="formulario__item">
+                        <label  class="formulario__section" for="">Apellido</label>
+                        <input  class="formulario__input" type="text" name="apellido" required>
+                    </div>
+
+                    <div lass="formulario__item">
+                        <label  class="formulario__section" for="">Fecha de Ingreso</label>
+                        <input  class="formulario__input" type="datetime-local" name="ingreso" required>
+                    </div>
+
+                    <div lass="formulario__item">
+                        <label  class="formulario__section" for="">Fecha de Salida</label>
+                        <input class="formulario__input" type="datetime-local" name="salida" required>
+                    </div>
+
+                    <div lass="formulario__item">
+                        <label  class="formulario__section" for="">Selecione tipo de habitacion</label>
+                        <select class="formulario__input"  name="tipo de habitacion" id="">
+                            <option   value="Suite">Suite</option>
+                            <option    value="Standar">Standar</option>
+                            
+                            <option   value="Ejecutiva">Ejecutiva</option>
+                        </select>
+                    </div>
+                    <div lass="formulario__item">
+                        <span class="formulario__section" >Cantidad de personas:</span>
+                        <label class="formulario__personas" for="">1 persona</label>
+                        <input   type="radio" name="personas" value="1 persona">
+                        <label class="formulario__personas"   for="">2 personas</label>
+                        <input type="radio" name="personas" value="2 personas">
+                        <label class="formulario__personas"   for="">3 personas</label>
+                        <input  type="radio" name="personas" value="3 personas">
+                    </div>
+                    <div class="formulario__item">
+                        <label class="formulario__terminos" for="">Acepto terminos y condiciones</label>
+                        
+                        <input type="checkbox" name="terminos" value="si-terminos">
+                    </div>
+                    <div>
+                        <input class="reservar" type="submit" value="Reservar">
+                    </div>
+
+                </form>
+            </article>
+        </section>
+
+        <footer class="pie">
+            <h4 class="pie__titulo">Redes Sociales</h4>
+            <ul>
+                <li class="pie__redes">Istagram</li>
+                <li class="pie__redes">Facebook</li>
+                <li class="pie__redes">Twitter</li>
+                <li class="pie__redes">TripAdvisor</li>
+            </ul>
+            <h4 class="pie__titulo">Contanto</h4>
+
+            <ul>
+                <li class="pie__redes"> + 54 261 4296320</li>
+                <li class="pie__redes"> reservas@hotelyayo.com</li>
+            </ul>
+
+            <div>
+                <h4 class="pie__titulo">Ubicacion</h4>
+
+                <iframe class="maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.48763909062!2d-68.8760287209301!3d-32.883333980142005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1664031946791!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
