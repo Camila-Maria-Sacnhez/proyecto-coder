@@ -89,7 +89,7 @@ a {
 /*PORTADA*/
 
 .portada {
-    background-image: url(../img/fachadahotels.jpg);
+
     background-position: center;
     background-size: cover;
     height: 98vh;
@@ -117,7 +117,7 @@ a {
 
 
 .portada__section--habitaciones {
-    background-image: url(../img/habitacion.jpg);
+    
     border-radius: 50px;
     height: 60vh;
     background-position: center;
@@ -130,7 +130,7 @@ a {
 }
 
 .portada__section--gastronomia {
-    background-image: url(../img/restaurant.jpg);
+   
     border-radius: 50px;
     height: 60vh;
     background-position: center;
@@ -138,7 +138,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    text-decoration: none;
 
+}
+
+.portada__section--gastronomia:hover{
+    text-decoration: none;
+    color: #e56b6f;
 }
 
 .portada__subtitulo {
@@ -284,6 +290,7 @@ footer{
     padding: 10px;
 
 
+
 }
 
 .descripcion {
@@ -293,6 +300,8 @@ footer{
 .reservar:hover {
     background-color: #e56b6f;
     color: #eee4e1;
+    
+
 
 
 }
@@ -358,7 +367,8 @@ footer{
 }
 
 .maps {
-    height: 15vh
+    max-width: 100%;
+  height: auto;
 }
 
 .pie__titulo {
@@ -415,13 +425,15 @@ footer{
 }
 
 .container-fluid .nav-item .barra {
-    border-color: #b2967d font-size: 1rem;
+    border-color: #b2967d;
+    font-size: 1rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 15px;
     text-align: center;
-
     margin-bottom: 15px;
-    margin-top: 15px;
+    
+
+
 
 }
 
@@ -429,6 +441,7 @@ footer{
 
     background-color: #e56b6f;
     color: #eee4e1;
+    transform:scale(1.2)
 }
 
 
@@ -444,13 +457,26 @@ footer{
 }
 
 .card .resto {
-    background-color: #eee4e1;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#f9e3d9;
+    border-color: #b2967d;
 
 }
 
-.botones{
+.botones {
     background-color: #eee4e1;
+}
+
+.imagen {
+    max-width: 100%;
+    max-height: 100% ;
+}
+
+.tarjeta{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ background-color: #f9e3d9;
+ border-color: #b2967d;
+ 
 }
 
 

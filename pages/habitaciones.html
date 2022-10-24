@@ -5,96 +5,207 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/styles.css">
     <title>habitaciones</title>
 </head>
 
 <body>
-    
-        <header class="navegador">
-            <h2 class="navegador__titulo">HOTEL YAYO</h2>
-            <nav class="navegador__barra">
-                <ul class="navegador__list">
-                    <li class="navegador__item"><a href="../index.html"> Inicio</a></li>
-                    <li class="navegador__item"><a href="./reservas.html"> Reservas</a></li>
-                    <li class="navegador__item"> <a href="../pages/gastronomia.html"> Gastronomia</a></li>
-                    <li class="navegador__item"><a href="./experiencia.html"> Experiencia</a></li>
-                </ul>
-            </nav>
-        </header>
 
-        <main>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <h2 class="hotel">HOTEL YAYO</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse barra" id="navbarTogglerDemo01">
 
-            <section>
-                <h2 class="rotuladores"> HABITACIONES</h2>
-            </section>
-            <section>
-                <h3 class="rotuladores__subtitulos">TIPOS DE HABITACIONES</h3>
-            </section>
-            <section class="grilla__tipos">
-                <div class="rotuladores__cuerpo">
-                    <div class="habitacion__corpo">
-                        <article class="rotuladores__texto">
-                            <img class="rotuladores__img" src="../img/hab--corpo.jpg"
-                                alt="habitacion pequena con 1 cama grande, 1 tvy un escritorio">
-                            <h4 class="rotuladores__tipos">Corporativa</h4>
-                            <span class="descripcion"> Cuenta con 20 mts y pueden ingresar 2 personas max</span>
-                            <a class="reservar" href="../pages/reservas.html">Reservar</a>
-                    </div>
-
-                    </article>
-
-                    <div class="habitacion__standar">
-                        <article class="rotuladores__texto">
-                            <img class="rotuladores__img" src="../img/hab--standar.jfif"
-                                alt="habitacion mediana con 1 cama, un sillon, 1 tv y 1 escritorio con esperjo">
-                            <h4 class="rotuladores__tipos">Standar</h4>
-                            <span class="descripcion"> Cuenta con 30mts y puede ingresar 3 personas max </span>
-                            <a class="reservar" href="../pages/reservas.html"> Reservar</a>
-                        </article>
-                    </div>
-
-                    <div class="habitacion__suite">
-                        <article class="rotuladores__texto">
-                            <img class="rotuladores__img" src="../img/junior-suite.jpg"
-                                alt="habitacion grande  con dos ambientes con una cama, con un escritorio, un TV, 2 escritoirios">
-                            <h4 class="rotuladores__tipos">Suite</h4>
-                            <span class="descripcion"> Cuenta con 45mts y pueden ingresar 3 personas max </span>
-                            <a class="reservar" href="../pages/reservas.html"> Reservar</a>
-                        </article>
-                    </div>
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link barra " href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link barra" href="./reservas.html">RESERVAS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link barra" href="./gastronomia.html">GASTRONOMIA</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link barra" href="./experiencia.html">EXPERIENCIAS</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Buscar">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
                 </div>
+            </div>
+        </nav>
+    </header>
 
-            </section>
+    <main>
+
+        <section>
+            <h2 class="rotuladores"> HABITACIONES</h2>
+        </section>
+        <section>
+            <h3 class="rotuladores__subtitulos">TIPOS DE HABITACIONES</h3>
+        </section>
+        <div class="card-group">
+            <div class="card tarjeta">
+                <img src="../img/hab--corpo.jpg" class="card-img-top" alt=" cuarto de hotel con una cama">
+                <div class="card-body">
+                    <h4 class="card-title rotuladores__tipos">Corporativa</h4>
+                    <p class="card-text">Cuenta con 20 mts y pueden ingresar 2 personas max</p>
+                    <a class="reservar" href="../pages/reservas.html">Reservar</a>
+
+                </div>
+            </div>
+            <div class="card tarjeta">
+                <img src="../img/hab--standar.jfif" class="card-img-top" alt="cuarto de hotel con una cama">
+                <div class="card-body">
+                    <h4 class="card-title rotuladores__tipos"> Standar</h4>
+                    <p class="card-text">Cuenta con 30mts y puede ingresar 3 personas max</p>
+                        <a class="reservar" href="../pages/reservas.html">Reservar</a>
+                </div>
+            </div>
+            <div class="card tarjeta">
+                <img src="../img/junior-suite.jpg" class="card-img-top" alt="cuarto de hotel con una cama ">
+                <div class="card-body">
+                    <h4 class="card-title rotuladores__tipos">Suite</h4>
+                    <p class="card-text">Cuenta con 30mts y puede ingresar 3 personas max.</p>
+                        <a class="reservar" href="../pages/reservas.html">Reservar</a>
+                    
+                </div>
+            </div>
+        </div>
 
 
+        <!-- Footer -->
+        <footer class="text-center text-lg-start  pie__pagina">
+            <!-- Section: Social media -->
+            <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
 
-            <footer class="pie">
-                <h4 class="pie__titulo">Redes Sociales</h4>
-                <ul>
-                    <li class="pie__redes">Istagram</li>
-                    <li class="pie__redes">Facebook</li>
-                    <li class="pie__redes">Twitter</li>
-                    <li class="pie__redes">TripAdvisor</li>
-                </ul>
-                <h4 class="pie__titulo">Contanto</h4>
-
-                <ul>
-                    <li class="pie__redes"> + 54 261 4296320</li>
-                    <li class="pie__redes"> reservas@hotelyayo.com</li>
-                </ul>
+                <div class="me-5 d-none d-lg-block">
+                    <span>Encuentranos en nuestras redes sociales</span>
+                </div>
 
                 <div>
-                    <h4 class="pie__titulo">Ubicacion</h4>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-facebook-f pie__items">Facebook</i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-twitter pie__items">Twitter</i>
+                    </a>
 
-                    <iframe class="maps"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.48763909062!2d-68.8760287209301!3d-32.883333980142005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1664031946791!5m2!1ses!2sar"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-instagram pie__items">Istagram</i>
+                    </a>
+                    <a href="" class="me-4 link-secondary">
+                        <i class="fab fa-linkedin pie__items"> Linkedin</i>
+                    </a>
+
                 </div>
-            </footer>
-        </main>
-    
+                <!-- Right -->
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Links  -->
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <!-- Grid row -->
+                    <div class="row mt-3">
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <!-- Content -->
+                            <h4 class="text-uppercase fw-bold mb-4 pie__items">
+                                <i class="fas fa-gem me-3 text-secondary"></i>Hotel Yayo
+                            </h4>
+                            <p>
+                                Nuestro hotel es unico en la provincia de mendoza
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h4 class="text-uppercase fw-bold mb-4 pie__items">
+                                Secciones
+                            </h4>
+                            <p>
+                                <a href="../index.html" class="text-reset ">Inicio</a>
+                            </p>
+                            <p>
+                                <a href="./reservas.html" class="text-reset ">Reservas</a>
+                            </p>
+                            <p>
+                                <a href="./habitaciones.html" class="text-reset ">Habitaciones</a>
+                            </p>
+                            <p>
+                                <a href="./experiencia.html" class="text-reset ">Experiencias</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                            <!-- Links -->
+                            <h4 class="text-uppercase fw-bold mb-4 pie__items">
+                                Links de interes
+                            </h4>
+                            <p>
+                                <a href="#!" class="text-reset">Que hacer en Mendoza?</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Las mejores Bodegas</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset">Donde comprar vino?</a>
+                            </p>
+                            <p>
+                                <a href="#!" class="text-reset"> Excursiones</a>
+                            </p>
+                        </div>
+                        <!-- Grid column -->
+
+                        <!-- Grid column -->
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <!-- Links -->
+                            <h4 class="text-uppercase fw-bold mb-4 pie__items">Contacto</h4>
+                            <p><i class="fas fa-home me-3 text-secondary"></i> Valle de Uco, Mendoza, Argentina</p>
+                            <p>
+                                <i class="fas fa-envelope me-3 text-secondary"></i>
+                                reservas@hotelyayo.com
+                            </p>
+                            <p><i class="fas fa-phone me-3 text-secondary"></i> + 54 261 6060477</p>
+                            <p><i class="fas fa-print me-3 text-secondary"></i> + 54 261 4296320</p>
+                        </div>
+                        <!-- Grid column -->
+                    </div>
+                    <!-- Grid row -->
+                </div>
+            </section>
+            <!-- Section: Links  -->
+
+            <!-- Copyright -->
+            <div class="text-center p-4 pie__items">
+                <h4>UBICACION:</h4>
+                <iframe class="maps"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26804.48763909062!2d-68.8760287209301!3d-32.883333980142005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses!2sar!4v1664031946791!5m2!1ses!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+
+        <script src="../js/bootstrap.bundle.min.js"></script>
+    </main>
+
 </body>
 
 </html>
