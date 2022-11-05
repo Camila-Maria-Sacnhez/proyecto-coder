@@ -47,58 +47,85 @@
     </header>
     <main>
         <section>
-            <h2 class="rotuladores"> Experiencias</h2>
-            <article>
-                <h3 class="rotuladores__subtitulos">Queremos saber tu experiencia en Hotel Yayo</h3>
-                <form class="formulario">
-                    <div>
-                        <label  class="formulario__section"for="">Nombre y Apellido:</label>
-                        <input  class="formulario__input" type="text" name="nombre" required>
-                    </div>
-                    <div>
-                    <label  class="formulario__section"for=""> Email:</label>
-                    <input  class="formulario__input"  type="email" name="email" required>
-                    </div>
-
-                    <div>
-                        <label  class="formulario__section"for="">Asunto:</label>
-                        <select  class="formulario__input" name="asunto" id="">
-                            <option   value="Queja">Queja</option>
-                            <option  value="Sugerencias">sugerencias</option>
-                            <option  value="otro">Otro</option>
-                        </select>
-                    </div>
-                    <div>
-                        <h3 class="formulario__section">Como estuvo tu estadia?</h3>
-                        <label  class="formulario__personas"for="">Muy buena</label>
-                        <input type="radio" name="estadia" value="muy buena">
-
-
-                        <label  class="formulario__personas"for="">Buena</label>
-                        <input type="radio" name="estadia" value="buena">
-
-                        <label class="formulario__personas" for="">Regular</label>
-                        <input type="radio" name="estadia" value="regular">
-
-                        <label  class="formulario__personas"for="">Mala</label>
-                        <input type="radio" name="estadia" value="Mala">
-                    </div>
-                    <div>
-
-                        <label class="formulario__section" for="">Mensaje:</label>
-                        <textarea class="formulario__input"  name="" id="" cols="30" rows="10"></textarea>
-                    </div>
-                    <div>
-                        <label class="formulario__terminos" for="">Acepto terminos y condiciones</label>
-                        <input type="checkbox" name="terminos" value="si-terminos">
-                    </div>
-                    <input class="reservar" type="submit" value="Enviar">
-
-
-
-                </form>
-            </article>
+            <h2 class="rotuladores"> EXPERIENCIA</h2>
         </section>
+        <section>
+            <h3 class="rotuladores__subtitulos">Tu opinion es muy importante para nosotros... Como estuvo tu estadia?
+            </h3>
+        </section>
+
+        <div class="input-group">
+            <span class="input-group-text rotuladores__tipos__formularios">Nombre y Apellido</span>
+            <input type="text" aria-label="First name" class="form-control">
+            <input type="text" aria-label="Last name" class="form-control">
+        </div>
+
+        <div>
+            <span class="input-group-text rotuladores__tipos__formularios">Como estuvo tu estadia?</span>
+        </div>
+
+        <div class="form-check form-check-inline seleccionador">
+
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+            <label class="form-check-label" for="inlineCheckbox1">Muy Buena</label>
+        </div>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+            <label class="form-check-label" for="inlineCheckbox2">Buena</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option3">
+            <label class="form-check-label" for="inlineCheckbox2">Regular</label>
+        </div>
+
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option4">
+            <label class="form-check-label" for="inlineCheckbox2">Mala</label>
+        </div>
+
+        <div>
+            <span class="input-group-text rotuladores__tipos__formularios">Asunto:</span>
+        </div>
+        <select class="form-select seleccionador" aria-label="Default select example">
+
+            <option value="1">Sugerencia</option>
+            <option value="2">Queja</option>
+            <option value="3">Otro</option>
+        </select>
+
+<div>
+    <span class="input-group-text rotuladores__tipos__formularios">Direccion de correo electronico</span>
+</div>
+
+        <div class="mb-3">
+            
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+        </div>
+
+        <div>
+            <span class="input-group-text rotuladores__tipos__formularios">Mensaje:</span>
+        </div>
+        <div class="mb-3">
+            
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+
+        <div class="form-check ">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label reservar" for="flexCheckDefault">
+                Acepto terminos y condiciones
+            </label>
+
+        </div>
+
+        <div>
+            <a class="reservar" href="../pages/reservas.html">Enviar</a>
+        </div>
+
+
+
+    </main>
 
     <!-- Footer -->
     <footer class="text-center text-lg-start  pie__pagina">
@@ -218,7 +245,6 @@
         <!-- Copyright -->
     </footer>
     <!-- Footer -->
-    </main>
 
     <script src="../js/bootstrap.bundle.min.js"></script>
 </body>

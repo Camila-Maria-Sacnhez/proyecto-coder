@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 a {
@@ -45,7 +46,7 @@ a {
     font-weight: 600;
     text-align: center;
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 5rem;
     background-color: #eee4e1;
     padding: 15px;
@@ -65,7 +66,8 @@ a {
     text-decoration: none;
     color: #b2967d;
     font-size: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
     padding: 15px;
     background-color: #eee4e1;
     text-align: center;
@@ -88,18 +90,19 @@ a {
 
 /*PORTADA*/
 
+
 .portada {
 
     background-position: center;
     background-size: cover;
-    height: 98vh;
+
     border-radius: 50px;
 
 
 }
 
 .porta__titulo {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #b2967d;
     font-size: 2rem;
     padding: 15px;
@@ -116,8 +119,11 @@ a {
 }
 
 
+
+
+
 .portada__section--habitaciones {
-    
+
     border-radius: 50px;
     height: 60vh;
     background-position: center;
@@ -130,7 +136,7 @@ a {
 }
 
 .portada__section--gastronomia {
-   
+
     border-radius: 50px;
     height: 60vh;
     background-position: center;
@@ -142,7 +148,7 @@ a {
 
 }
 
-.portada__section--gastronomia:hover{
+.portada__section--gastronomia:hover {
     text-decoration: none;
     color: #e56b6f;
 }
@@ -151,22 +157,24 @@ a {
     text-align: center;
     color: #ecf8f8;
     background-color: #b2967d;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
     padding: 15px;
     border-radius: 50px;
     display: flex;
     justify-content: center;
+}
 
-
-
+.portada__subtitulo:hover{
+    background-color:#ecf8f8 ;
+    color:#b2967d;
 }
 
 .portada__parrafo {
     text-align: center;
     color: #b2967d;
     background-color: #ecf8f8;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     padding: 15px;
     border-radius: 50px;
@@ -174,13 +182,20 @@ a {
 
 
 /*PAGINAS*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.seleccionador{
+    font-size: 1.1rem;
+}
 
 .rotuladores {
     color: #b2967d;
     font-weight: 200;
     text-align: center;
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     background-color: #eee4e1;
     padding: 15px;
@@ -196,46 +211,13 @@ a {
     text-align: center;
     color: #ecf8f8;
     background-color: #b2967d;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
     padding: 15px;
     border-radius: 5px;
 }
 
-/*PAGINA habitaciones*/
 
-/*.grilla__habitaciones{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-template-rows:25vh 55vh 20vh;
-    grid-template-areas: 
-    " header header"
-    "main main "
-    "footer footer ";
-    
-}
-
-head{
-    grid-area: header;
-    grid-column: 1/3;
-}
-main{
-    grid-area: main;
-}
-
-footer{
-    grid-area:  footer;
-}
-/*.habitacion__corpo{
-    grid-column: 3/2;
-    grid-row: 3/4;
-}
-
-.habitacion__suite{
-    grid-row: 5/6;
-    grid-column: 2/3;
-    
-}*/
 
 .rotuladores__cuerpo {
     display: flex;
@@ -252,7 +234,7 @@ footer{
     background-color: #eee4e1;
     border-radius: 5px;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -276,9 +258,12 @@ footer{
 
 .rotuladores__tipos {
     color: #e56b6f;
-    font-size: 2rem;
+    font-size: 1.3rem;
+}
 
-
+.rotuladores__tipos__formularios {
+    color:#b2967d;
+    font-size: 1.3rem;
 }
 
 .reservar {
@@ -300,7 +285,7 @@ footer{
 .reservar:hover {
     background-color: #e56b6f;
     color: #eee4e1;
-    
+
 
 
 
@@ -318,7 +303,7 @@ footer{
 }
 
 .formulario__section {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 2rem;
 
 
@@ -334,14 +319,14 @@ footer{
 
 .formulario__personas {
     font-size: 1.5rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     margin: 15px;
 
 
 }
 
 .formulario__terminos {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5;
     background-color: #e6beae;
     border-radius: 15px;
@@ -368,13 +353,13 @@ footer{
 
 .maps {
     max-width: 100%;
-  height: auto;
+    height: auto;
 }
 
 .pie__titulo {
     color: #ecf8f8;
     text-decoration: underline;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #e6beae;
     font-size: 2rem;
     border-radius: 15px;
@@ -388,7 +373,7 @@ footer{
 .pie__redes {
     color: #050505;
     text-decoration: underline;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 1.5rem;
     display: flex;
@@ -403,7 +388,7 @@ footer{
 
 .container-fluid {
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 
 
 
@@ -411,7 +396,7 @@ footer{
 }
 
 .hotel {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #b2967d;
     font-size: 2rem;
     background-color: #eee4e1ea;
@@ -427,11 +412,11 @@ footer{
 .container-fluid .nav-item .barra {
     border-color: #b2967d;
     font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 15px;
     text-align: center;
     margin-bottom: 15px;
-    
+
 
 
 
@@ -441,12 +426,12 @@ footer{
 
     background-color: #e56b6f;
     color: #eee4e1;
-    transform:scale(1.2)
+    transform: scale(1.2)
 }
 
 
 .pie__pagina {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color: #b2967d;
 
 }
@@ -457,8 +442,8 @@ footer{
 }
 
 .card .resto {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color:#f9e3d9;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9e3d9;
     border-color: #b2967d;
 
 }
@@ -469,15 +454,17 @@ footer{
 
 .imagen {
     max-width: 100%;
-    max-height: 100% ;
+    max-height: 100%;
 }
 
-.tarjeta{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- background-color: #f9e3d9;
- border-color: #b2967d;
- 
+.tarjeta {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9e3d9;
+    border-color: #b2967d;
+
 }
+
+/*PORTADA*/
 
 
 
