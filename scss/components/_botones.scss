@@ -1,0 +1,18 @@
+.botones {
+    background-color: $color-cuatro;
+}
+
+.reservar {
+    align-self: center;
+    background-color: #ecf8f8;
+    font-size: 1.5rem;
+    color: #e56b6f;
+    border-radius: 15px;
+    padding: 10px;
+&:hover {
+    background-color: #e56b6f;
+    color: #eee4e1;
+
+}
+
+}
