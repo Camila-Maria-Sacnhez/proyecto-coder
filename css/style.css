@@ -104,6 +104,7 @@ body {
   color: #e56b6f;
   border-radius: 15px;
   padding: 10px;
+  cursor: pointer;
 }
 .reservar:hover {
   background-color: #e56b6f;
@@ -148,13 +149,17 @@ body {
   border-color: #b2967d;
   font-size: 1rem;
   font-family: Arial, Helvetica, sans-serif;
-  padding: 15px;
   text-align: center;
   margin-bottom: 15px;
+  border-radius: 15px;
+  padding: 10px;
+  cursor: pointer;
 }
 .container-fluid .nav-item .barra:hover {
   background-color: #e56b6f;
   color: #eee4e1;
+  border-radius: 50px;
+  padding: 10px;
   transform: scale(1.2);
 }
 
