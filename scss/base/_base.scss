@@ -17,7 +17,7 @@ a {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $tipografia
 }
 
 .seleccionador{
@@ -39,27 +39,27 @@ body {
 }
 
 .rotuladores {
-    color: #b2967d;
+    color: $color-uno;
     font-weight: 200;
     text-align: center;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $tipografia;
     font-size: 1.5rem;
-    background-color: #eee4e1;
+    background-color: $color-cuatro;
     padding: 15px;
     border-radius: 10px;
     border-width: 5px;
     border-style: solid;
-    border-color: #e6beae;
+    border-color: $color-seis;
     margin: auto;
     position: relative;
 
 
 &__subtitulos {
     text-align: center;
-    color: #ecf8f8;
-    background-color: #b2967d;
-    font-family: Arial, Helvetica, sans-serif;
+    color: $color-siete;
+    background-color: $color-uno;
+    font-family: $tipografia;
     font-size: 1.5rem;
     padding: 15px;
     border-radius: 5px;
@@ -76,13 +76,15 @@ body {
 }
 
 &__texto {
-    border: 5px solid #e56b6f;
-    border-color: #e6beae;
+    border: 5px solid $color-tres;
+    border-color: $color-seis;
     width: 800px;
-    background-color: #eee4e1;
+    background-color: $color-cuatro;
     border-radius: 5px;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: $tipografia;   
+    color: $color-siete;
+    
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -99,12 +101,12 @@ body {
 }
 
 &__tipos {
-    color: #e56b6f;
+    color: $color-tres;
     font-size: 1.3rem;
 
 
 &__formularios {
-    color:#b2967d;
+    color: $color-uno;
     font-size: 1.3rem;
 }
 

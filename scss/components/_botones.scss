@@ -4,15 +4,16 @@
 
 .reservar {
     align-self: center;
-    background-color: #ecf8f8;
+    background-color: $color-siete;
     font-size: 1.5rem;
-    color: #e56b6f;
+    color: $color-tres;
     border-radius: 15px;
     padding: 10px;
     cursor: pointer;
+    margin: 50px;
 &:hover {
-    background-color: #e56b6f;
-    color: #eee4e1;
+    background-color: $color-tres;
+    color: $color-dos;
 
 }
 

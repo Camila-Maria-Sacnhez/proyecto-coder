@@ -7,52 +7,28 @@
     border-radius: 50px;
 
     &__titulo {
-        font-family: Arial, Helvetica, sans-serif;
-        color: #b2967d;
+        font-family: $tipografia;
+        color: $color-uno;
         font-size: 2rem;
         padding: 15px;
-        background-color: #eee4e1;
+        background-color: $color-cuatro;
         text-align: center;
         border-radius: 20px;
         border-width: 5px;
         border-style: solid;
-        border-color: #e6beae;
+        border-color: $color-seis;
         margin-bottom: 15px;
         margin-top: 15px;
         width: auto;
     }
 
-    &__section--habitaciones {
-        border-radius: 50px;
-        height: 60vh;
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
 
-    &__section--gastronomia {
-        border-radius: 50px;
-        height: 60vh;
-        background-position: center;
-        background-size: cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-decoration: none;
-
-        &:hover {
-            text-decoration: none;
-            color: #e56b6f;
-        }
-    }
 
     &__subtitulo {
         text-align: center;
-        color: #ecf8f8;
-        background-color: #b2967d;
-        font-family: Arial, Helvetica, sans-serif;
+        color: $color-siete;
+        background-color: $color-uno;
+        font-family: $tipografia;
         font-size: 2rem;
         padding: 15px;
         border-radius: 50px;
@@ -60,20 +36,8 @@
         justify-content: center;
 
         &:hover {
-            background-color: #ecf8f8;
-            color: #b2967d;
+            background-color: $color-siete;
+            color: $color-uno;
         }
     }
-
-    &__parrafo {
-        text-align: center;
-        color: #b2967d;
-        background-color: #ecf8f8;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 1rem;
-        padding: 15px;
-        border-radius: 50px;
-    }
-
-
 }

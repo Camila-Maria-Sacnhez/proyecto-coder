@@ -1,6 +1,6 @@
 .pie__pagina {
     font-family: $tipografia;
-    color: #b2967d;
+    color: $color-uno;
 
     &__items{
         color:$color-tres;
@@ -14,49 +14,5 @@
     height: auto;
 }
 
-.pie {
 
-
-    background-color: #eee4e1;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    height: 20vh;
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-
-
-
-
-
-&__titulo {
-    color: #ecf8f8;
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #e6beae;
-    font-size: 2rem;
-    border-radius: 15px;
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-&__redes {
-    color: #050505;
-    text-decoration: underline;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-    font-size: 1.5rem;
-    display: flex;
-    display: row;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-}
-}
 
